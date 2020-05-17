@@ -1,10 +1,18 @@
 'use strict'
 
-/** */
+/**
+ * My informations about my knoledges, skills, carrier, etc...
+*/
 function myCurriculum() {
-    const name = 'Felipe Alves da Silva'
+    const fullName = 'Felipe Alves da Silva'
     const age = 22
     const objectives = ['Front-end Engineer', 'Fullstack Engineer']
+    const resume = `
+        I'm a softare consultant, focused and enthusiast about web technologies, and always 
+        looking for them, learning the latest frameworks and libraries. A Front-end developer
+        always willing for new challenges and new knowledges, getting ready to build web solutions 
+        focusing to solve some problems or something totally new in our world.
+    `
     const technologies = {
         languages: [
             'JavaScript',
@@ -15,20 +23,30 @@ function myCurriculum() {
         ],
         libraries: [
             'ReactJs Ecosystem',
-            'Chart.Js',
-            'Webpack'
+            'Chart.js',
+            'Webpack',
+            'Ember.js',
+            'Brain.js'
         ],
         frameworks: [
             'Angular',
             'GraphQL',
             'Jest',
             'Apollo GraphQL',
+            'MongoDB',
             'Redux',
             'React Testing Library',
             'Enzyme'
         ]
     }
-    const habilities = []
+    const skills = [
+        'Team Work',
+        'Self-Taught',
+        'Communicative',
+        'Organization',
+        'Design Patterns',
+        'Clean Code'
+    ]
     const knowledges = [
         'React Hooks',
         'GIT',
@@ -43,8 +61,8 @@ function myCurriculum() {
     const courses = {
         finished: [
             {
-                course: 'Ensinamentos avançados em JavaScript - OO com es6',
-                platform: 'Alura Cursos'
+                course: 'Advanced Teachings with JavaScript - OO with es6',
+                platform: 'Alura Courses'
             },
             {
                 course: 'Testing React Applications using Jest framework',
@@ -66,6 +84,5 @@ function myCurriculum() {
             }
         ]
     }
-    const resume = ''
 }
 module.exports = myCurriculum
